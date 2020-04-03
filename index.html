@@ -1,57 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>  
-<meta name="viewport content="width=drvice-width,initial-scale=1>
-body {
-  background-image: url('goa.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed ;
-  background-size: cover;
-}
-</style>
-    
-</head>
-<style>
-    <style>
-     body{
-         margin:0;
-         background-image= url("goa.jpg");
-     }
-.navbar {
-    overflow: hidden;
-    background-color: rgb(57, 15, 124) ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.navbar a{
-    float: left;
-    display: block;
-    color: rgb(238, 227, 222);
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
-    font-size: 14px;
-}
-.navbar a:hover{
-    background-color:rgb(129, 95, 206) ;
 
-}   
+<meta name="viewport" content ="width=device-width,initial-scale=1">
+<meta>
+<link  rel="stylesheet" href="assets/css/style.css">
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="Assets/css/style1.css">
+
 
 <body>
+     <div class="carousel">
+            <div class="carousel-item">
+                <img src="assets/img/college.jpeg">
+                <h3>College</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/dance.jpg">
+                <h3>Konkani Dance</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/food.jpg">
+                <h3>Konkani Food</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/industry.jpeg">
+                <h3>Industry</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/landmark.jpg">
+                <h3>Landmark</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/langauge.jpeg">
+                <h3>Konkani Langauge</h3>
+            </div>  
+            <div class="carousel-item">
+                <img src="assets/img/logo.jpg">
+                <h3>Logo</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/river.jpg">
+                <h3>River</h3>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/tradition (1).jpeg">
+                <h3>Tradition</h3>
+            </div> 
+            <div class="carousel-item">
+                <img src="assets/img/artist.jpg">
+                <h3>Artist</h3>
+            </div>                                                              
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+         <script type="text/javascript">
+          $(document).ready(function(){
+           $('.carousel').carousel();
+           });
+        </script>
+
+
 
     <div class="navbar">
-        <b><br>iKonkani</b>
-        <a href="#home"><br>HOME</a>
-        <a href="#news"><br>LITERATURE</a>
-        <a href="#contact"><br>EDUCATION</a>
-        <a href="#visualarts"><br>VISUAL ARTS</a>
-        <a href="#home"><br>PERFORMING ART</a>
-        <a href="#home"><br>SOCIAL</a>
-        <a href="#home"><br>EVENTS</a>
-        <a href="#home"><br>SHOPPING CART</a>
-        <a href="#home"><br>WISHLIST</a>
+         <p style="font-family: fantasy" style="color: aqua;"> i Konkani</p>
+        <a href="#home">HOME</a>
+        <a href="#news">LITERATURE</a>
+        <a href="#contact">EDUCATION</a>
+        <a href="#visualarts">VISUAL ARTS</a>
+        <a href="#home">PERFORMING ART</a>
+        <a href="#home">SOCIAL</a>
+        <a href="#home">EVENTS</a>
+        <a href="#home">SHOPPING CART</a>
+        <a href="#home">WISHLIST</a>
         </div>
 </body>
 </html>
